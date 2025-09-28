@@ -76,3 +76,6 @@
 - sudo apt update && apt upgrade 
 	- this updates the operating system
 	- also goes out to known repositories and upgrading to latest version for tools
+
+
+I am going to test how much this works and if everything is up to date here because I dont think it is 
