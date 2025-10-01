@@ -38,7 +38,8 @@
 - python3 -m http.server ()
 	- () = your desired port number
 	- this can be used to again host information and grab files 
-- 
+
+ifconfig
 
 
 
@@ -69,6 +70,9 @@
 		- legitimate linux version of notepad on windows
 		- easiest to use and graphical 
 
+- grep
+	- grep grabs a line from a file based on what you specify to search for 
+	- eg: cat ip.txt | grep "64 bytes"
 
 
 **System commands**
@@ -77,4 +81,8 @@
 	- this updates the operating system
 	- also goes out to known repositories and upgrading to latest version for tools
 
-PIMPMYKALI
+
+**Scripting in bash**
+
+**always start programs with #!/bin/bash**
+
