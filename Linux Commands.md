@@ -1,4 +1,4 @@
-
+																											
 **Basic commands**
 
 - sudo 
@@ -81,6 +81,8 @@ ifconfig
 	- this updates the operating system
 	- also goes out to known repositories and upgrading to latest version for tools
 
+**SSH**
+- SSH (username)@(ipaddress)
 
 **Scripting in bash**
 

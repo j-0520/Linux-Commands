@@ -12,6 +12,13 @@ if the IP address is 192.xxxx or 10.xxx or 172.xxx/ these are private IP address
  - MAC addresses are used for layer 2 (switching) so the packets know which specific device to go to once on the correct network
 
 
+**Subnetting**
+
+- /24 subnet = 254 possible devices 
+- it is 265 hosts however (first and last address are reserved for broadcast IP and network ID)
+- 
+
+
 **TCP vs UDP**
 
 **TCP**
@@ -65,3 +72,75 @@ numonic
 5 Session - Session management
 6 Presentation - WMV, JPEG, MOV
 7 Application - HTTP, SMTP
+
+
+
+
+**The 5 Stages of Ethical Hacking**
+
+ 1 **reconnaissance** 
+	- Active / passive
+	**Passive reconnaissance**
+		- Things like looking at the company website, looking at a LinkedIn account 
+		- looking at an employees Instagram account 
+		- **not directly interacting with the target system**
+	**Active reconnaissance**
+		- NMAP scanning 
+		- Nessus scanning 
+		- enumeration (digging and searching for items of interest)
+		- **directly interacting with the system**
+(please note here that active reconnaissance kind of falls into step 2)
+
+3 **gaining access (exploitation)**
+	- this is running an exploit against the vulnerabilities found in section 1 to get a foothold into the system 
+	- for example, brute force passwords, known exploits for enumerated information such as APACHE 
+
+4 **Maintain access**
+	- this is key for a prolonged attack 
+	- need to be sure that if the user turns off their computer (you lose access) but if they turn it back on again you then have access again 
+	- **OR**
+	- deeper rooted access into server etc that never turns off 
+
+5 **covering tracks**
+	- deleting logs / malware pushed in 
+	- delete any accounts or logs 
+	- clean up 
+
+
+
+**WGET**
+ - Wget allows us to download files from the web via HTTP. 
+	 - only thing is you must know the entire web address
+
+
+**SCP (secure copy)**
+ - a way of securely copying files using the SSH protocol for authentication and encryption 
+	 - note: this is of course used for transferring between two computers
+
+
+
+
+**Passive Reconnaissance**
+
+**Location information**
+- satellite images 
+- drone recon 
+- building layout
+
+**Job information**
+- Employees (name, job title, phone number, manager)
+- pictures (badge photos, desk photos, computer photos)
+
+
+**Web / host assessment**
+	 **Target validation** 
+		- WHOIS, nslookup, dnsrecon
+	**Finding Subdomains**
+		- Google FU, dig, nmap
+	**fingerprinting**
+		- NMAP, WhatWeb, netcat
+	**Data breaches**
+		-  HaveIBeenPwned, breachparse
+
+
+
