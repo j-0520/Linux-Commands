@@ -107,19 +107,6 @@ numonic
 	- clean up 
 
 
-
-**WGET**
- - Wget allows us to download files from the web via HTTP. 
-	 - only thing is you must know the entire web address
-
-
-**SCP (secure copy)**
- - a way of securely copying files using the SSH protocol for authentication and encryption 
-	 - note: this is of course used for transferring between two computers
-
-
-
-
 **Passive Reconnaissance**
 
 **Location information**

@@ -18,6 +18,18 @@
 - ls -la 
 	- lists **ALL** files within the specific directory including hidden files
 
+* wget 
+	* this is used for downloading files from HTTP sources
+
+* SCP 
+	* this is to copy a file from machine to machine securely through SSH protocol
+	* example: scp important.txt ubuntu@192.168.1.39:/home/ubuntu/transferred.txt
+
+* PS 
+	* lists all running processes in the users sessions 
+* ps aux shows processes ran by other users and those that dont run from sessions (system processes)
+	
+
 
 **Networking commands**
 
