@@ -16,3 +16,11 @@ arp -a
 		Ip address
 		Status
 		Protocol
+
+
+**Vlan**
+-show vlan brief
+	shows:
+		current Vlans setup
+		names 
+		which ethernet they are setup to
